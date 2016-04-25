@@ -1,0 +1,84 @@
+/* css */
+// @import url(https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Merriweather:300,400);
+$bg-color: #fff;
+$url-color: #858585;
+$otherinfo-color: #0b0;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: merriweather, lora, serif;
+}
+
+.container {
+  // width: 90vw
+  min-width: 350px;
+}
+
+.center-main-box {
+  margin: 20px;
+  header {
+    margin-top: 10vh;
+    margin-bottom: 34px;
+    .short-brand {
+      display: none;
+    }
+  }
+  input {
+    width: 70%;
+    height: 34px;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+}
+.btn {
+  height: 30px;
+  text-transform:  capitalize !important; 
+}
+.topbar-main-box {
+  header {
+    h1 {
+      position: absolute;
+      margin: 14px;
+      font-size: 24pt;
+    }
+  }
+  .search-box {
+    input {
+      margin: 10px;
+      float: right;
+      width: 70%;
+      padding-right: 7px !important;
+      font-size: 10pt;
+    }
+    .random-article {
+      display: none
+    }
+  }
+}
+.divisor {
+  margin: 7px
+}
+footer {
+  background-color: $bg-color;
+  font-size: 8pt;
+  margin-top: 70px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  p {
+    border-top: solid 1px lightgray;
+    padding-top: 4px;
+  }
+}
+.results {
+  .entry-title {
+    font-size: 1.25em;
+  }
+  .url {
+    color: $url-color;
+  }
+  .other-info {
+    color: $otherinfo-color;
+  }
+}
