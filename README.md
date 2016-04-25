@@ -1,2 +1,2 @@
 # fcc-frontend
-front end projects files
+FreeCodeCamp Front End course assets
